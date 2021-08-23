@@ -1,0 +1,15 @@
+@media screen and (max-width: 320px) {
+    @-ms-viewport { width: 320px; }
+}
+@media screen and (min-width: 768px) and (max-width: 959px) {
+    @-ms-viewport { width: 768px; }
+}
+/*top部分*/
+#top{height: 57px;width: 100%;position: relative;box-shadow: 2px 0 10px #7f7f7f;}
+
+/*login部分*/
+#login{height:69%;text-align: center}
+.title .background{background: #00a0d8;width: 100%;height:86px;margin-bottom: 20px;}
+/*总体部分*/
+.login_border{width: 980px;height: 28px;border-bottom: 1px solid #ddd;margin-bottom:28px;text-align: center;margin-left: 24vw}
+.login_border .login{height: 56px;line-height: 56px;margin: 0 auto;padding: 0 20px;font-size: 38px;background: #fff;text-align: center;border: none}
